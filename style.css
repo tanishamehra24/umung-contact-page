@@ -1,5 +1,5 @@
 
-  h1{
+ h1,h2{
     animation: slideright 1s ease forwards;
     animation-delay: .4s;
 }
@@ -11,6 +11,9 @@
 #text{
     animation: slideright 1s ease forwards;
     animation-delay: .6s;
+}
+h2{
+    animation-delay: .5s;
 }
 
 
