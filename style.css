@@ -1,0 +1,49 @@
+
+  h1{
+    animation: slideright 1s ease forwards;
+    animation-delay: .4s;
+}
+#logo{
+    animation: slideTop 1s ease forwards;
+    animation-delay: .2s;
+}
+
+#text{
+    animation: slideright 1s ease forwards;
+    animation-delay: .6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideright{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
