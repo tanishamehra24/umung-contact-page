@@ -1,5 +1,4 @@
-
- h1,h2{
+h1,h2{
     animation: slideright 1s ease forwards;
     animation-delay: .4s;
 }
